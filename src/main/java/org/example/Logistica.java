@@ -12,8 +12,8 @@ public class Logistica {
             throw new IllegalArgumentException("Entrega inexistente");
         }
         if (!(objeto instanceof ILogistica)) {
-            throw new IllegalArgumentException("Entrega inválida");
+            throw new IllegalArgumentException("Entrega Inválida");
         }
-        return (ILogistica)objeto;
+        return (ILogistica) objeto;
     }
 }

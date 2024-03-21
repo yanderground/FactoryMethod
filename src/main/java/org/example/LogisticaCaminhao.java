@@ -2,8 +2,8 @@ package org.example;
 
 
 public class LogisticaCaminhao implements ILogistica {
-    public String executar() {
-        return "Entrega concluída";
+    public String concluir() {
+        return "Entrega Concluída";
     }
 
     public String cancelar() {
