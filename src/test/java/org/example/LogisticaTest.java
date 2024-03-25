@@ -2,7 +2,6 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
-import static org.example.Logistica.obterLogistica;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -23,7 +22,7 @@ public class LogisticaTest {
             ILogistica logistica = Logistica.obterLogistica("Cancelada");
             fail();
         } catch (IllegalArgumentException e) {
-            assertEquals("Entrega Inválida", e.getMessage());
+            assertEquals("Entrega inexistente", e.getMessage());
         }
     }
 }
