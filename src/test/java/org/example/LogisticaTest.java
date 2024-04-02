@@ -22,7 +22,7 @@ public class LogisticaTest {
             ILogistica logistica = Logistica.obterLogistica("Cancelada");
             fail();
         } catch (IllegalArgumentException e) {
-            assertEquals("Entrega inexistente", e.getMessage());
+            assertEquals("Entrega Invalida", e.getMessage());
         }
     }
 }
