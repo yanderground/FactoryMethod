@@ -1,1 +1,1 @@
-![image](https://github.com/yanderground/FactoryMethod/assets/78827513/1a3afaab-1b75-4cc9-b994-369c10735931)
+![image](https://github.com/yanderground/FactoryMethod/assets/78827513/c9c4e419-5a7a-417f-854f-2ba7f86a18c9)
